@@ -1,0 +1,177 @@
+div{
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
+.item{
+    width: 70px;
+    height: 70px;
+    background-color: #331b49;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border: 3px solid red;
+}
+.container{
+    background-color: aquamarine;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+.SB{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.SBCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.SA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.SACol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.SE{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.SECol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.BL{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.alignS{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start;
+    
+}
+
+.alignC{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.alignE{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: end;
+    
+}
+.alignSB{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: start;
+    
+}
+.alignSA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-around;
+    justify-content: start;
+    
+}
+.alignSE{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+    justify-content: start;
+    
+}
+/* .stretchC{
+    align-items: stretch;
+    background-color:aqua;
+    border:3px solid red;
+    font-size:1.8rem;
+    text-align:center;
+    
+} */
+.stretchCR{
+    /* align-items: stretch; */
+    background-color:aqua;
+    border:3px solid red;
+    font-size:1.8rem;
+    text-align:center;
+ }   
+#stretchC{
+    display:flex;
+    flex-direction:column;
+    align-items: stretch;
+}
+
+ 
+
+
+#stretchR{
+    display:flex;
+    flex-direction:row;
+    align-items: stretch;
+
+}
+.FlexF{
+    display:flex;
+    flex-flow:row nowrap;
+
+}
+.order{
+    display:flex;
+    flex-direction:row;
+
+}
+.alignSelf{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items: stretch;
+}
+.FlexB{
+    display:flex;
+    flex-direction:column;
+}
+.flexG{
+    display:flex;
+    flex-direction:row;
+
+}
+.flexS{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+
